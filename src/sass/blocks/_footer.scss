@@ -1,0 +1,27 @@
+.footer {
+    min-height: 168px;
+    padding: 40px 0;
+    background-color: #000;
+    .container {
+        @include displayFlexSpaceBetween;
+        align-items: center;
+    }
+    &__wrapper {
+        @include displayFlexSpaceBetween;
+        align-items: center;
+        width: 520px;
+    }
+    &__logo {
+        margin-top: 10px;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    &__copyright {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+}

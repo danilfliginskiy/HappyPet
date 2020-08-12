@@ -1,0 +1,30 @@
+.title {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+    margin: 0;
+    &_main {
+        font-size: 40px;
+        line-height: 49px;
+    }
+    &_mini {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    &_white {
+        color: #fff;
+        margin-left: 15px;
+    }
+    &_modal {
+        font-size: 23px;
+        text-align: center;
+    }
+}
+.subtitle {
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 27px;
+    color: #000000;
+    margin-top: 24px;
+}

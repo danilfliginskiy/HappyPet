@@ -1,0 +1,35 @@
+.catalog {
+    min-height: 925px;
+    padding: 110px 0 75px 0;
+    background-color: #fbf6ed;
+    &__tabs {
+        width: 100%;
+        display: flex;
+        padding: 0;
+        list-style-type: none;
+    }
+    &__tab {
+        min-width: 130px;
+        max-width: 185px;
+        padding: 16px 49px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #777777;
+        text-align: center;
+        margin-right: 22px;
+        border: 1px solid #A9A9A9;
+        border-radius: 100px;
+        transition: 0.7s;
+        cursor: pointer;
+        &:hover {
+            transform: translateY(-8px);
+            box-shadow: 5px 5px 10px $pink-color;
+        }
+        &_active {
+            background-color: $pink-color;
+            color: #fff;
+            border: 1px solid $pink-color;
+        }
+    }
+}
